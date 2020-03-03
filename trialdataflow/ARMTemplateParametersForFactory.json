@@ -10,6 +10,15 @@
 		},
 		"AzureSqlDatabase2_connectionString": {
 			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "SPY\\user"
 		}
 	}
 }
