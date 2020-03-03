@@ -1,0 +1,84 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "User_type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Anaplan_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Apr",
+				"type": "nvarchar"
+			},
+			{
+				"name": "May",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Jun",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Jul",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Aug",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Sep",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Oct",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Nov",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Dec",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Jan",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Feb",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Mar",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tablets"
+		}
+	}
+}
